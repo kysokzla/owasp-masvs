@@ -35,6 +35,9 @@ MASVS 規範中的涉及敏感資料用戶憑證和在特定情況中被視為�
 | **2.10** | MSTG‑STORAGE‑10 | 應用程式不會在記憶體中保存超過必要時效的機敏資料，並且在使用後會明確清除記憶體內容。 |  | ✓ |
 | **2.11** | MSTG‑STORAGE‑11 | 應用程式採用了最低訪問安全策略，會要求用戶設置密碼等。 |  | ✓ |
 | **2.12** | MSTG‑STORAGE‑12 | 應用程式已主動告知如何處理用戶的個人識別訊息，並且主動告知用戶的使用應用程式時要遵循的要點。 |  | ✓ |
+| **2.13** | MSTG‑STORAGE‑13 | 機敏資料不應被儲存在行動應用裝置本機儲存空間上。機敏資料應儲存在遠端端點，然後在需要時讀取並儲存於記憶體中。 |  | ✓ |
+| **2.14** | MSTG‑STORAGE‑14 | 如果機敏資料需要被儲存於行動應用裝置本機儲存空間，該資料應經過本機認證程序後可被使用之硬體加密系統加密後儲存。 |  | ✓ |
+| **2.15** | MSTG‑STORAGE‑15 | 行動應用程式的本機儲存空間應在多次認證失敗後，自動進行資料清除之工作。 |  | ✓ |
 
 ## 參考
 
@@ -45,5 +48,21 @@ OWASP 行動安全檢測指南列出相關要求，並且相關章節中有詳�
 
 更多相關信息，另請參閱：
 
+- OWASP Mobile Top 10: M1 (Improper Platform Usage) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage>
 - OWASP Mobile Top 10: M2 (Insecure Data Storage) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage>
+- CWE 117 (Improper Output Neutralization for Logs) - <https://cwe.mitre.org/data/definitions/117.html>
+- CWE 200 (Information Exposure) - <https://cwe.mitre.org/data/definitions/200.html>
+- CWE 276 (Incorrect Default Permissions) - <https://cwe.mitre.org/data/definitions/276.html>
+- CWE 311 (Missing Encryption of Sensitive Data) - <https://cwe.mitre.org/data/definitions/311.html>
+- CWE 312 (Cleartext Storage of Sensitive Information) - <https://cwe.mitre.org/data/definitions/312.html>
+- CWE 316 (Cleartext Storage of Sensitive Information in Memory) - <https://cwe.mitre.org/data/definitions/316.html>
+- CWE 359 (Exposure of Private Information ('Privacy Violation')) - <https://cwe.mitre.org/data/definitions/359.html>
+- CWE 522 (Insufficiently Protected Credentials) - <https://cwe.mitre.org/data/definitions/522.html>
+- CWE 524 (Information Exposure Through Caching) - <https://cwe.mitre.org/data/definitions/524.html>
+- CWE 530 (Exposure of Backup File to an Unauthorized Control Sphere) - <https://cwe.mitre.org/data/definitions/530.html>
+- CWE 532 (Information Exposure Through Log Files) - <https://cwe.mitre.org/data/definitions/532.html>
+- CWE 534 (Information Exposure Through Debug Log Files) - <https://cwe.mitre.org/data/definitions/534.html>
+- CWE 634 (Weaknesses that Affect System Processes) - <https://cwe.mitre.org/data/definitions/634.html>
+- CWE 798 (Use of Hard-coded Credentials) - <https://cwe.mitre.org/data/definitions/798.html>
+- CWE 921 (Storage of Sensitive Data in a Mechanism without Access Control) - <https://cwe.mitre.org/data/definitions/921.html>
 - CWE 922 (Insecure Storage of Sensitive Information) - <https://cwe.mitre.org/data/definitions/922.html>

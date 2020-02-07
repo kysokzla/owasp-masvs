@@ -18,8 +18,8 @@
 | **4.8** | MSTG‑AUTH‑8 | 生物辨識認證（如果有的話）不受事件限制（即是像簡單地返回“真”或“假”的API）。 相反，它是基於解鎖鑰匙串/密鑰庫。 |   | ✓ |
 | **4.9** | MSTG‑AUTH‑9 | 遠端端點存在第二個驗證要素，並且始終強制執行2FA準則。  |   | ✓ |
 | **4.10** | MSTG‑AUTH‑10 | 敏感的交易需要進一步認證。  |   | ✓ |
-| **4.11** | MSTG‑AUTH‑11 | 應用程式通過其帳戶通知用戶所有登錄活動。 用戶可以查看用於訪問帳戶的裝置列表，以及阻檔特定裝置。 |  | ✓ |
-
+| **4.11** | MSTG‑AUTH‑11 | 應用程式通過其帳戶通知用戶所有登錄活動。 用戶可以查看用於訪問帳戶的裝置列表（如實際位置，IP等），以及阻檔特定裝置。 |  | ✓ |
+| **4.12** | MSTG‑AUTH‑12 | 驗證方式需在遠端端點定義並執行。 | ✓ | ✓ |
 <div style="page-break-after: always;">
 </div>
 
@@ -35,4 +35,10 @@ OWASP Mobile Security Testing Guide 提供了有關驗證本章節中列出的�
 
 - OWASP Mobile Top 10: M4 (Insecure Authentication) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication>
 - OWASP Mobile Top 10: M6 (Insecure Authorization) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization>
-- CWE 287 (Improper Authentication)- <https://cwe.mitre.org/data/definitions/287.html>
+- CWE 287 (Improper Authentication) - <https://cwe.mitre.org/data/definitions/287.html>
+- CWE 307 (Improper Restriction of Excessive Authentication Attempts) - <https://cwe.mitre.org/data/definitions/307.html>
+- CWE 308 (Use of Single-factor Authentication) - <https://cwe.mitre.org/data/definitions/308.html>
+- CWE 521 (Weak Password Requirements) - <https://cwe.mitre.org/data/definitions/521.html>
+- CWE 604 (Use of Client-Side Authentication) - <https://cwe.mitre.org/data/definitions/604.html>
+- CWE 613 (Insufficient Session Expiration) - <https://cwe.mitre.org/data/definitions/613.html>
+

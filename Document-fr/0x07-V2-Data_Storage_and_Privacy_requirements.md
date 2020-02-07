@@ -21,7 +21,7 @@ Dans le contexte du MASVS, les données sensibles ont trait aux deux aspects que
 
 La grande majorité des problèmes de divulgation de données peuvent être empêchés en suivant des règles simples. La plupart des contrôles listés dans ce chapitre sont obligatoires pour tous les niveaux de validation.
 
-| # | MSTG-ID | Description || L2 |
+| # | MSTG-ID | Description | L1 | L2 |
 | --- | --- | --- | --- | --- |
 | **2.1** | MSTG‑STORAGE‑1 | Les fonctions de stockage sécurisées proposées par les systèmes doivent être utilisées de manière appropriée pour stocker les données sensibles tels que les informations personnellement identifiables (PII), les références des utilisateurs ou les clés cryptographiques. | ✓ | ✓ |
 | **2.2** | MSTG‑STORAGE‑2 | Aucune donnée sensible ne devrait être stockée hors du conteneur de l'application ou des fonctions de stockage sécurisées proposées par le système. | ✓ | ✓ |
@@ -51,5 +51,21 @@ Le Mobile Security Testing Guide de l'OWASP donne des instructions détaillées 
 
 Pour de plus amples informations, il est possible de consulter aussi :
 
-- OWASP Mobile Top 10: M2 (Stockage de données non-sécurisé) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage>
+- OWASP Mobile Top 10: M1 (Improper Platform Usage) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage>
+- OWASP Mobile Top 10: M2 (Insecure Data Storage) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage>
+- CWE 117 (Improper Output Neutralization for Logs) - <https://cwe.mitre.org/data/definitions/117.html>
+- CWE 200 (Information Exposure) - <https://cwe.mitre.org/data/definitions/200.html>
+- CWE 276 (Incorrect Default Permissions) - <https://cwe.mitre.org/data/definitions/276.html>
+- CWE 311 (Missing Encryption of Sensitive Data) - <https://cwe.mitre.org/data/definitions/311.html>
+- CWE 312 (Cleartext Storage of Sensitive Information) - <https://cwe.mitre.org/data/definitions/312.html>
+- CWE 316 (Cleartext Storage of Sensitive Information in Memory) - <https://cwe.mitre.org/data/definitions/316.html>
+- CWE 359 (Exposure of Private Information ('Privacy Violation')) - <https://cwe.mitre.org/data/definitions/359.html>
+- CWE 522 (Insufficiently Protected Credentials) - <https://cwe.mitre.org/data/definitions/522.html>
+- CWE 524 (Information Exposure Through Caching) - <https://cwe.mitre.org/data/definitions/524.html>
+- CWE 530 (Exposure of Backup File to an Unauthorized Control Sphere) - <https://cwe.mitre.org/data/definitions/530.html>
+- CWE 532 (Information Exposure Through Log Files) - <https://cwe.mitre.org/data/definitions/532.html>
+- CWE 534 (Information Exposure Through Debug Log Files) - <https://cwe.mitre.org/data/definitions/534.html>
+- CWE 634 (Weaknesses that Affect System Processes) - <https://cwe.mitre.org/data/definitions/634.html>
+- CWE 798 (Use of Hard-coded Credentials) - <https://cwe.mitre.org/data/definitions/798.html>
+- CWE 921 (Storage of Sensitive Data in a Mechanism without Access Control) - <https://cwe.mitre.org/data/definitions/921.html>
 - CWE 922 (Insecure Storage of Sensitive Information) - <https://cwe.mitre.org/data/definitions/922.html>

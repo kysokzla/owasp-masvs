@@ -6,7 +6,7 @@ Los controles enumerados en esta categoría tienen por objetivo asegurar la conf
 
 ## Requerimientos de Verificación de Seguridad
 
-| # | MSTG-ID | Descripción |L2 |
+| # | MSTG-ID | Descripción | L1 | L2 |
 | --- | --- | --- | --- | --- |
 | **5.1** | MSTG‑NETWORK‑1 | La información es enviada cifrada utilizando TLS. El canal seguro es usado consistentemente en la aplicación. | ✓ | ✓ |
 | **5.2** | MSTG‑NETWORK‑2 | Las configuraciones del protocolo TLS siguen las mejores prácticas de la industria, o lo hacen lo mejor posible en caso de que el sistema operativo del dispositivo no soporte los estándares recomendados. | ✓ | ✓ |
@@ -27,6 +27,15 @@ La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detal
 
 Para más información, ver también:
 
-- OWASP Top 10 Móvil: M3 (Comunicación Insegura) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication>
-- CWE 319 (Transmisión en Claro de Información Sensible) - <https://cwe.mitre.org/data/definitions/319.html>
-- CWE 295 (Validación Inapropiada de Certificados) - <https://cwe.mitre.org/data/definitions/295.html>
+- OWASP Mobile Top 10: M3 (Insecure Communication) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication>
+- CWE 295 (Improper Certificate Validation) - <https://cwe.mitre.org/data/definitions/295.html>
+- CWE 296 (Improper Following of a Certificate's Chain of Trust) - <https://cwe.mitre.org/data/definitions/296.html>
+- CWE 297 (Improper Validation of Certificate with Host Mismatch) - <https://cwe.mitre.org/data/definitions/297.html>
+- CWE 298 (Improper Validation of Certificate Expiration) - <https://cwe.mitre.org/data/definitions/298.html>
+- CWE 308 (Use of Single-factor Authentication) - <https://cwe.mitre.org/data/definitions/308.html>
+- CWE 319 (Cleartext Transmission of Sensitive Information) - <https://cwe.mitre.org/data/definitions/319.html>
+- CWE 326 (Inadequate Encryption Strength) - <https://cwe.mitre.org/data/definitions/326.html>
+- CWE 327 (Use of a Broken or Risky Cryptographic Algorithm) - <https://cwe.mitre.org/data/definitions/327.html>
+- CWE 780 (Use of RSA Algorithm without OAEP) - <https://cwe.mitre.org/data/definitions/780.html>
+- CWE 940 (Improper Verification of Source of a Communication Channel) - <https://cwe.mitre.org/data/definitions/940.html>
+- CWE 941 (Incorrectly Specified Destination in a Communication Channel) - <https://cwe.mitre.org/data/definitions/941.html>

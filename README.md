@@ -19,12 +19,15 @@ The MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https
 
 PDF/Mobi/Epub/Docx downloads are available on the [Releases page](https://github.com/OWASP/owasp-masvs/releases "Releases"). The current release of the [MASVS is version 1.1.4](https://github.com/OWASP/owasp-masvs/releases/tag/1.1.4 "MASVS version 1.1.4"). The MASVS is also available in different languages:
 
-- [Spanish](https://github.com/OWASP/owasp-masvs/tree/master/Document-es "Spanish")  
-- [Russian](https://github.com/OWASP/owasp-masvs/tree/master/Document-ru "Russian")
-- [German](https://github.com/OWASP/owasp-masvs/tree/master/Document-de "German")
+- [Chinese (Simplified) - ZHCN](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhcn "Simplified Chinese (ZHCN)")
+- [Chinese (Traditional) - ZHTW](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhtw "Traditional Chinese (ZHTW)")
+- [English](https://github.com/OWASP/owasp-masvs/tree/master/Document "English")
 - [French](https://github.com/OWASP/owasp-masvs/tree/master/Document-fr "French")
+- [German](https://github.com/OWASP/owasp-masvs/tree/master/Document-de "German")
 - [Japanese](https://github.com/OWASP/owasp-masvs/tree/master/Document-ja "Japanese")
-- [Chinese - ZHTW](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhtw "Traditional Chinese (ZHTW)")
+- [Korean](https://github.com/OWASP/owasp-masvs/tree/master/Document-ko "Korean")
+- [Russian](https://github.com/OWASP/owasp-masvs/tree/master/Document-ru "Russian")
+- [Spanish](https://github.com/OWASP/owasp-masvs/tree/master/Document-es "Spanish")  
 
 ## Gitbook
 
@@ -70,7 +73,7 @@ The MASVS is an open source effort and we welcome contributions and feedback. If
 
 You can sign up here:
 
-[https://owaspslack.com/](https://join.slack.com/t/owasp/shared_invite/enQtNjExMTc3MTg0MzU4LTViMDg1MmJiMzMwZGUxZjgxZWQ1MTE0NTBlOTBhNjhhZDIzZTZiNmEwOTJlYjdkMzAxMGVhNDkwNDNiNjZiOWQ)
+[https://owasp.slack.com/](https://join.slack.com/t/owasp/shared_invite/enQtNjExMTc3MTg0MzU4LWQ2Nzg3NGJiZGQ2MjRmNzkzN2Q4YzU1MWYyZTdjYjA2ZTA5M2RkNzE2ZjdkNzI5ZThhOWY5MjljYWZmYmY4ZjM)
 
 Before you start contributing, please check our [contribution guide](https://github.com/OWASP/owasp-masvs/blob/master/CONTRIBUTING.md "Contribution Guide") which should get you started.
 

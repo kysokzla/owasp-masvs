@@ -6,7 +6,7 @@
 
 ## Требования безопасности
 
-| # | MSTG-ID | Описание |1 | L2 |
+| # | MSTG-ID | Описание | L1 | L2 |
 | --- | --- | --- | --- | --- |
 | **5.1** | MSTG‑NETWORK‑1 | Данные, передаваемые по сети, шифруются с использованием TLS. Безопасный канал используется для всех сервисов приложения. | ✓ | ✓ |
 | **5.2** | MSTG‑NETWORK‑2 | Настройки TLS соответствуют современным лучшим практикам, или максимально приближены к ним, если операционная система не поддерживает рекомендуемые стандарты. | ✓ | ✓ |
@@ -22,11 +22,21 @@
 
 OWASP MSTG содержит подробные инструкции по верификации требований, перечисленных в этом разделе.
 
-- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>
-- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md>
+- Общее: Тестирование сетевого взаимодействия - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04f-Testing-Network-Communication.md>
+- Android: Тестирование сетевого взаимодействия - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>
+- iOS: Тестирование сетевого взаимодействия - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md>
 
 Для получения дополнительной информации смотрите также:
 
 - OWASP Mobile Top 10: M3 (Insecure Communication) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication>
-- CWE 319 (Cleartext Transmission of Sensitive Information) - <https://cwe.mitre.org/data/definitions/319.html>
 - CWE 295 (Improper Certificate Validation) - <https://cwe.mitre.org/data/definitions/295.html>
+- CWE 296 (Improper Following of a Certificate's Chain of Trust) - <https://cwe.mitre.org/data/definitions/296.html>
+- CWE 297 (Improper Validation of Certificate with Host Mismatch) - <https://cwe.mitre.org/data/definitions/297.html>
+- CWE 298 (Improper Validation of Certificate Expiration) - <https://cwe.mitre.org/data/definitions/298.html>
+- CWE 308 (Use of Single-factor Authentication) - <https://cwe.mitre.org/data/definitions/308.html>
+- CWE 319 (Cleartext Transmission of Sensitive Information) - <https://cwe.mitre.org/data/definitions/319.html>
+- CWE 326 (Inadequate Encryption Strength) - <https://cwe.mitre.org/data/definitions/326.html>
+- CWE 327 (Use of a Broken or Risky Cryptographic Algorithm) - <https://cwe.mitre.org/data/definitions/327.html>
+- CWE 780 (Use of RSA Algorithm without OAEP) - <https://cwe.mitre.org/data/definitions/780.html>
+- CWE 940 (Improper Verification of Source of a Communication Channel) - <https://cwe.mitre.org/data/definitions/940.html>
+- CWE 941 (Incorrectly Specified Destination in a Communication Channel) - <https://cwe.mitre.org/data/definitions/941.html>
