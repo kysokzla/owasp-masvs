@@ -7,13 +7,13 @@ Der Zweck dieser Kategorie ist es die Vertraulichkeit und Integrität übertrage
 ## Anforderungen
 
 | # | MSTG-ID | Beschreibung | L1 | L2 |
-| --- | --- | --- | --- | --- |
-| **5.1** | MSTG‑NETWORK‑1 | Daten werden zur Netzwerkkommunikation innerhalb der App durchgängig mit TLS verschlüsselt. | ✓ | ✓ |
-| **5.2** | MSTG‑NETWORK‑2 | Die TLS-Einstellungen entsprechen aktuellen Best Practices, oder erfüllen die Best Practices so gut wie möglich falls das mobile Betriebssystem die Empfehlung nicht unterstützt. | ✓ | ✓ |
-| **5.3** | MSTG‑NETWORK‑3 | Die App überprüft das X.509-Zertifikat des Servers beim TLS-Handshake. Die App akzeptiert nur Zertifikate die von einer vertrauenswürdigen Zertifizierungsstelle signiert wurden.  | ✓ | ✓ |
-| **5.4** | MSTG‑NETWORK‑4 | Die App nutzt entweder ihren eigenen Zertifikatspeicher oder nutzt Public Key-/ Zertifikats-Pinning und akzeptiert deshalb keine Verbindungen zu Endpunkten die andere Zertifikate/Schlüssel präsentieren - selbst wenn die Zertifikate von einer vertrauenswürdigen Zertifizierungstelle signiert sind. |   | ✓ |
-| **5.5** | MSTG‑NETWORK‑5 | Die App nutzt keine unsicheren Kommunikationskanäle wie Email oder SMS für kritische Operationen wie Konten-Registrierung oder Konten-Reaktivierung. |  | ✓ |
-| **5.6** | MSTG‑NETWORK‑6 | Die App nutzt aktuelle Bibliotheken zum Aufbau von sicheren Kommunikationsverbindungen. |  | ✓ |
+| -- | -------- | ---------------------- | - | - |
+| **5.1** | MSTG-NETWORK-1 | Daten werden zur Netzwerkkommunikation innerhalb der App durchgängig mit TLS verschlüsselt. | ✓ | ✓ |
+| **5.2** | MSTG-NETWORK-2 | Die TLS-Einstellungen entsprechen aktuellen Best Practices, oder erfüllen die Best Practices so gut wie möglich falls das mobile Betriebssystem die Empfehlung nicht unterstützt. | ✓ | ✓ |
+| **5.3** | MSTG-NETWORK-3 | Die App überprüft das X.509-Zertifikat des Servers beim TLS-Handshake. Die App akzeptiert nur Zertifikate die von einer vertrauenswürdigen Zertifizierungsstelle signiert wurden.  | ✓ | ✓ |
+| **5.4** | MSTG-NETWORK-4 | Die App nutzt entweder ihren eigenen Zertifikatspeicher oder nutzt Public Key-/ Zertifikats-Pinning und akzeptiert deshalb keine Verbindungen zu Endpunkten die andere Zertifikate/Schlüssel präsentieren - selbst wenn die Zertifikate von einer vertrauenswürdigen Zertifizierungstelle signiert sind. |   | ✓ |
+| **5.5** | MSTG-NETWORK-5 | Die App nutzt keine unsicheren Kommunikationskanäle wie Email oder SMS für kritische Operationen wie Konten-Registrierung oder Konten-Reaktivierung. |  | ✓ |
+| **5.6** | MSTG-NETWORK-6 | Die App nutzt aktuelle Bibliotheken zum Aufbau von sicheren Kommunikationsverbindungen. |  | ✓ |
 
 ## Referenzen
 
@@ -25,7 +25,7 @@ Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen um die A
 
 Weitere Informationen unter:
 
-- OWASP Mobile Top 10: M3 (Insecure Communication) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication>
+- OWASP Mobile Top 10: M3 (Insecure Communication) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m3-insecure-communication>
 - CWE 295 (Improper Certificate Validation) - <https://cwe.mitre.org/data/definitions/295.html>
 - CWE 296 (Improper Following of a Certificate's Chain of Trust) - <https://cwe.mitre.org/data/definitions/296.html>
 - CWE 297 (Improper Validation of Certificate with Host Mismatch) - <https://cwe.mitre.org/data/definitions/297.html>

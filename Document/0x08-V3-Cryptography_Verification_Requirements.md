@@ -11,13 +11,17 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 ## Security Verification Requirements
 
 | # | MSTG-ID | Description | L1 | L2 |
-| --- | --- | --- | --- | --- |
-| **3.1** | MSTG‑CRYPTO‑1 | The app does not rely on symmetric cryptography with hardcoded keys as a sole method of encryption.| ✓ | ✓ |
-| **3.2** | MSTG‑CRYPTO‑2 | The app uses proven implementations of cryptographic primitives. | ✓ | ✓ |
-| **3.3** | MSTG‑CRYPTO‑3 | The app uses cryptographic primitives that are appropriate for the particular use-case, configured with parameters that adhere to industry best practices. | ✓ | ✓|
-| **3.4** | MSTG‑CRYPTO‑4 | The app does not use cryptographic protocols or algorithms that are widely considered deprecated for security purposes. | ✓ | ✓|
-| **3.5** | MSTG‑CRYPTO‑5 | The app doesn't re-use the same cryptographic key for multiple purposes. | ✓ | ✓ |
-| **3.6** | MSTG‑CRYPTO‑6 | All random values are generated using a sufficiently secure random number generator. | ✓ | ✓ |
+| -- | -------- | ---------------------- | - | - |
+| **3.1** | MSTG-CRYPTO-1 | The app does not rely on symmetric cryptography with hardcoded keys as a sole method of encryption.| ✓ | ✓ |
+| **3.2** | MSTG-CRYPTO-2 | The app uses proven implementations of cryptographic primitives. | ✓ | ✓ |
+| **3.3** | MSTG-CRYPTO-3 | The app uses cryptographic primitives that are appropriate for the particular use-case, configured with parameters that adhere to industry best practices. | ✓ | ✓ |
+| **3.4** | MSTG-CRYPTO-4 | The app does not use cryptographic protocols or algorithms that are widely considered deprecated for security purposes. | ✓ | ✓ |
+| **3.5** | MSTG-CRYPTO-5 | The app doesn't re-use the same cryptographic key for multiple purposes. | ✓ | ✓ |
+| **3.6** | MSTG-CRYPTO-6 | All random values are generated using a sufficiently secure random number generator. | ✓ | ✓ |
+
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
 
 ## References
 
@@ -28,7 +32,7 @@ The OWASP Mobile Security Testing Guide provides detailed instructions for verif
 
 For more information, see also:
 
-- OWASP Mobile Top 10: M5 (Insufficient Cryptography) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography>
+- OWASP Mobile Top 10: M5 (Insufficient Cryptography) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m5-insufficient-cryptography>
 - CWE 310 (Cryptographic Issues) - <https://cwe.mitre.org/data/definitions/310.html>
 - CWE 321 (Use of Hard-coded Cryptographic Key) - <https://cwe.mitre.org/data/definitions/321.html>
 - CWE 326 (Inadequate Encryption Strength) - <https://cwe.mitre.org/data/definitions/326.html>

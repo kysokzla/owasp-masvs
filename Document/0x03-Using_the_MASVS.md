@@ -16,7 +16,7 @@ Fulfilling the requirements in MASVS-L1 results in a secure app that follows sec
 
 **II: Note that the software protection controls listed in MASVS-R and described in the OWASP Mobile Security Testing Guide can ultimately be bypassed and must never be used as a replacement for security controls. Instead, they are intended to add additional threat-specific, protective controls to apps that also fulfill the MASVS requirements in MASVS-L1 or MASVS-L2.**
 
-![Verification Levels](images/masvs-levels-new.jpg)
+<img src="images/masvs-levels-new.jpg" title="Verification Levels" width="600px" height="253px" />
 
 ### Document Structure
 
@@ -51,8 +51,6 @@ In summary, the following verification types are available:
 - MASVS-L2+R
 
 The different combinations reflect different grades of security and resiliency. The goal is to allow for flexibility: For example, a mobile game might not warrant adding MASVS-L2 security controls such as 2-factor authentication for usability reasons, but have a strong business need for tamper prevention.
-<div style="page-break-after: always;">
-</div>
 
 #### Which Verification Type to Choose
 

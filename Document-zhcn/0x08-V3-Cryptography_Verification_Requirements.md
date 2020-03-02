@@ -11,13 +11,13 @@
 ## 安全验证要求
 
 | # | MSTG-ID | 描述 | L1 | L2 |
-| --- | --- | --- | --- | --- |
-| **3.1** | MSTG‑CRYPTO‑1 | 该应用程序不依赖带有硬编码密钥的对称加密方式作为唯一的加密方法。 |✓| ✓|
-| **3.2** | MSTG‑CRYPTO‑2 | 该应用程序使用经过实现验证的密码基元。 | ✓| ✓|
-| **3.3** | MSTG‑CRYPTO‑3 | 该应用在特定的案例下使用了合适的加密基元，参数配置符合行业最佳实践。 | ✓| ✓|
-| **3.4** | MSTG‑CRYPTO‑4 | 该应用不使用基于安全目的而被广泛认为已经淘汰的加密协议或者算法。  | ✓| ✓|
-| **3.5** | MSTG‑CRYPTO‑5 | 该应用不会将相同的秘钥重复用于多种途径。  | ✓| ✓|
-| **3.6** | MSTG‑CRYPTO‑6 | 所有的随机数都被一个足够安全的随机数生成器生成。 | ✓| ✓|
+| -- | -------- | ---------------------- | - | - |
+| **3.1** | MSTG-CRYPTO-1 | 该应用程序不依赖带有硬编码密钥的对称加密方式作为唯一的加密方法。 | ✓ | ✓ |
+| **3.2** | MSTG-CRYPTO-2 | 该应用程序使用经过实现验证的密码基元。 | ✓ | ✓ |
+| **3.3** | MSTG-CRYPTO-3 | 该应用在特定的案例下使用了合适的加密基元，参数配置符合行业最佳实践。 | ✓ | ✓ |
+| **3.4** | MSTG-CRYPTO-4 | 该应用不使用基于安全目的而被广泛认为已经淘汰的加密协议或者算法。  | ✓ | ✓ |
+| **3.5** | MSTG-CRYPTO-5 | 该应用不会将相同的秘钥重复用于多种途径。  | ✓ | ✓ |
+| **3.6** | MSTG-CRYPTO-6 | 所有的随机数都被一个足够安全的随机数生成器生成。 | ✓ | ✓ |
 
 ## 参考文献
 
@@ -26,9 +26,13 @@ OWASP 移动安全测试指南提供了验证本节中列出的要求的详细�
 - Android: 测试密码学 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
 - iOS: 测试密码学 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
 
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
+
 测试密码学:
 
-- OWASP Mobile Top 10: M5 (Insufficient Cryptography) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography>
+- OWASP Mobile Top 10: M5 (Insufficient Cryptography) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m5-insufficient-cryptography>
 - CWE 310 (Cryptographic Issues) - <https://cwe.mitre.org/data/definitions/310.html>
 - CWE 321 (Use of Hard-coded Cryptographic Key) - <https://cwe.mitre.org/data/definitions/321.html>
 - CWE 326 (Inadequate Encryption Strength) - <https://cwe.mitre.org/data/definitions/326.html>

@@ -7,16 +7,16 @@ The goal of this control is to ensure that basic security coding practices are f
 ## Security Verification Requirements
 
 | # | MSTG-ID | Description | L1 | L2 |
-| --- | --- | --- | --- | --- |
-| **7.1** | MSTG‑CODE‑1 | The app is signed and provisioned with a valid certificate, of which the private key is properly protected. | ✓ | ✓ |
-| **7.2** | MSTG‑CODE‑2 | The app has been built in release mode, with settings appropriate for a release build (e.g. non-debuggable). | ✓ | ✓ |
-| **7.3** | MSTG‑CODE‑3 | Debugging symbols have been removed from native binaries. | ✓ | ✓ |
-| **7.4** | MSTG‑CODE‑4 | Debugging code and developer assistance code (e.g. test code, backdoors, hidden settings) have been removed. The app does not log verbose errors or debugging messages. | ✓ | ✓|
-| **7.5** | MSTG‑CODE‑5 | All third party components used by the mobile app, such as libraries and frameworks, are identified, and checked for known vulnerabilities. | ✓ | ✓ |
-| **7.6** | MSTG‑CODE‑6 | The app catches and handles possible exceptions.| ✓ | ✓ |
-| **7.7** | MSTG‑CODE‑7 | Error handling logic in security controls denies access by default. | ✓ | ✓ |
-| **7.8** | MSTG‑CODE‑8 | In unmanaged code, memory is allocated, freed and used securely.  | ✓ | ✓ |
-| **7.9** | MSTG‑CODE‑9 | Free security features offered by the toolchain, such as byte-code minification, stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ |
+| -- | -------- | ---------------------- | - | - |
+| **7.1** | MSTG-CODE-1 | The app is signed and provisioned with a valid certificate, of which the private key is properly protected. | ✓ | ✓ |
+| **7.2** | MSTG-CODE-2 | The app has been built in release mode, with settings appropriate for a release build (e.g. non-debuggable). | ✓ | ✓ |
+| **7.3** | MSTG-CODE-3 | Debugging symbols have been removed from native binaries. | ✓ | ✓ |
+| **7.4** | MSTG-CODE-4 | Debugging code and developer assistance code (e.g. test code, backdoors, hidden settings) have been removed. The app does not log verbose errors or debugging messages. | ✓ | ✓ |
+| **7.5** | MSTG-CODE-5 | All third party components used by the mobile app, such as libraries and frameworks, are identified, and checked for known vulnerabilities. | ✓ | ✓ |
+| **7.6** | MSTG-CODE-6 | The app catches and handles possible exceptions.| ✓ | ✓ |
+| **7.7** | MSTG-CODE-7 | Error handling logic in security controls denies access by default. | ✓ | ✓ |
+| **7.8** | MSTG-CODE-8 | In unmanaged code, memory is allocated, freed and used securely.  | ✓ | ✓ |
+| **7.9** | MSTG-CODE-9 | Free security features offered by the toolchain, such as byte-code minification, stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ |
 
 ## References
 
@@ -27,7 +27,7 @@ The OWASP Mobile Security Testing Guide provides detailed instructions for verif
 
 For more information, see also:
 
-- OWASP Mobile Top 10: M7 (Poor Code Quality) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality>
+- OWASP Mobile Top 10: M7 (Poor Code Quality) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m7-client-code-quality>
 - CWE 20 (Improper Input Validation) - <https://cwe.mitre.org/data/definitions/20.html>
 - CWE 89 (Improper Neutralization of Special Elements used in an SQL Command) - <https://cwe.mitre.org/data/definitions/89.html>
 - CWE 95 (Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')) - <https://cwe.mitre.org/data/definitions/95.html>

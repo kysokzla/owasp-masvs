@@ -1,8 +1,6 @@
-![OWASP LOGO](images/OWASP_logo.png)
+# Sobre el Estándar
 
-# Estándar de Verificación de Seguridad en Aplicaciones Móviles
-
-## Sobre el Estándar
+<img src="images/OWASP_logo.png" title="OWASP LOGO" />
 
 Bienvenido al Estándar de Verificación de Seguridad de Aplicaciones Móviles (MASVS) 1.1. El MASVS es un esfuerzo comunitario para establecer un marco de requisitos de seguridad necesarios para diseñar, desarrollar y probar la seguridad de aplicaciones móviles iOS y Android.
 
@@ -10,25 +8,31 @@ El MASVS es la culminación del esfuerzo de la comunidad y la retroalimentación
 
 La mejor manera de ponerse en contacto con nosotros es a través del canal OWASP Mobile Project en Slack: <https://owasp.slack.com/messages/project-mobile_omtg/details/>
 
-Las cuentas se pueden crear en la siguiente URL: [https://owasp.slack.com/](https://join.slack.com/t/owasp/shared_invite/enQtNjExMTc3MTg0MzU4LWQ2Nzg3NGJiZGQ2MjRmNzkzN2Q4YzU1MWYyZTdjYjA2ZTA5M2RkNzE2ZjdkNzI5ZThhOWY5MjljYWZmYmY4ZjM).
+Las cuentas se pueden crear en la siguiente URL: [https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/).
 
 ## Copyright y Licencia
 
-![license](images/CC-license.png) Copyright © 2019 The OWASP Foundation. Este documento está licenciado bajo la licencia Internacional 4.0 de [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Para cualquier reutilización o distribución, debe dejar claro los términos de la licencia de esta obra.
+[<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
 
-<div style="page-break-after: always;">
+Copyright © 2020 The OWASP Foundation. Este documento está licenciado bajo la licencia Internacional 4.0 de [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Para cualquier reutilización o distribución, debe dejar claro los términos de la licencia de esta obra.
+
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
 </div>
 
 ## Reconocimientos
 
 | Líderes del proyecto | Autor principal | Colaboradores y revisores
-| --- | --- | --- |
+| ------- | --- | ----------------- |
 | Sven Schleier, Jeroen Willemsen y Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Eugen Martynov, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abderrahmane Aftahi, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang |
 
+<br/>
+
 | Idioma | Traductores y revisores |
-| --- | --- |
+| --- | ------------------------------ |
 | Alemán | Rocco Gränitz, Sven Schleier (revisor) |
-| Chino | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| Chino (Tradicional)| Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| Chino (Simplificada) | Bob Peng, Harold Zang, Jack S |
 | Coreano | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | Español | Martin Marsicano, Carlos Holguera |
 | Francés | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (revisor) |
@@ -43,10 +47,10 @@ Aunque tanto el MASVS como la MSTG fueron creados y son mantenidos por la comuni
 
 ### Honorable Benefactor
 
-[![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
+[<img src="images/NowSecure_logo.png" title="NowSecure" width="200px" height="58px" />](https://www.nowsecure.com/ "NowSecure")
 
 ### Good Samaritan
 
-[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/ "RandoriSec")
+[<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
 
 También nos gustaría agradecer al Capítulo del Área de la Bahía de OWASP por su patrocinio. Por último, nos gustaría agradecer a todos los que compraron el libro en Leanpub y nos patrocinaron de esa manera.
